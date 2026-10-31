@@ -1,0 +1,13 @@
+# Streamlit's own [theme] block is deliberately omitted.
+#
+# Previously this pinned base="dark" plus explicit colors, which meant
+# Streamlit kept feeding dark-theme text colors into widget internals
+# (selectboxes, popovers) even when theme.py was rendering light mode —
+# producing invisible text on light backgrounds. theme.py owns every
+# colour decision now; Streamlit shouldn't compete with it.
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

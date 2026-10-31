@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/sentismetric/__init__.py
+src/sentismetric/config.py
+src/sentismetric/log.py
+src/sentismetric/testscript.py
+src/sentismetric.egg-info/PKG-INFO
+src/sentismetric.egg-info/SOURCES.txt
+src/sentismetric.egg-info/dependency_links.txt
+src/sentismetric.egg-info/top_level.txt
